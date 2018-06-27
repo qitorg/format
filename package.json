@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "description": "format based on certain keys: A, 9, and *",
   "license": "MIT",
-  "repository": "https://github.com/qitorg/format.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qitorg/format.git"
+  },
   "scripts": {
     "build": "rollup ./index.js -o ./umd/format.js -f umd",
     "test": "node test ./index.js",
@@ -12,5 +15,10 @@
   "devDependencies": {
     "rollup": "^0.62.0",
     "rollup-plugin-buble": "^0.19.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/qitorg/format/issues"
+  },
+  "homepage": "https://github.com/qitorg/format#readme",
+  "main": "index.js"
 }
